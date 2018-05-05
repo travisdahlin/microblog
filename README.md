@@ -14,6 +14,10 @@ $ source venv/bin/activate
 ```bash
 $ sudo pip install flask
 ```
+- Install flask-wtf
+```bash
+$ sudo pip install flask-wtf
+```
 - Set the FLASK-APP environment varialb.
 ```bash
 $ export FLASK_APP=microblog.py

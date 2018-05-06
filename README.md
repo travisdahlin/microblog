@@ -1,40 +1,33 @@
 # Microblog
 A demo python flask web application.
 ## Setup
+### Init
 - Clone the repository
 - Create a virtual environment
-```bash
-$ python3 -m venv venv
-```
 - Activate the virtual environment
 ```bash
+$ python3 -m venv venv
 $ source venv/bin/activate 
 ```
+### Install libraries
 - Install flask
+- Install flask-wtf
+- Install flask-sqlalchemy
+- Install flask-migrate
 ```bash
 $  pip install flask
-```
-- Install flask-wtf
-```bash
 $ pip install flask-wtf
+$ pip install flask-sqlalchemy
+$ pip install flask-migrate
 ```
- - Install flask-sqlalchemy
- ```bash
- $ pip install flask-sqlalchemy
- ```
- - Install flask-migrate
- ```bash
- $ pip install flask-migrate
- ```
+### Configure environment
 - Set the FLASK-APP environment variable.
-```bash
-$ export FLASK_APP=microblog.py
-```
 - Initialize the database
-```bash
-$ flask db init
-```
+- Create database migration script
 - Start the application
 ```bash
+$ export FLASK_APP=microblog.py
+$ flask db init
+$ flask db migrate
 $ flask run
 ```

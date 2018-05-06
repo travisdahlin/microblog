@@ -12,23 +12,27 @@ $ source venv/bin/activate
 ```
 - Install flask
 ```bash
-$ sudo pip install flask
+$  pip install flask
 ```
 - Install flask-wtf
 ```bash
-$ sudo pip install flask-wtf
+$ pip install flask-wtf
 ```
  - Install flask-sqlalchemy
  ```bash
- $ sudo pip install flask-sqlalchemy
+ $ pip install flask-sqlalchemy
  ```
  - Install flask-migrate
  ```bash
- $ sudo pip install flask-migrate
+ $ pip install flask-migrate
  ```
-- Set the FLASK-APP environment varialb.
+- Set the FLASK-APP environment variable.
 ```bash
 $ export FLASK_APP=microblog.py
+```
+- Initialize the database
+```bash
+$ flask db init
 ```
 - Start the application
 ```bash

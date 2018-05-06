@@ -24,10 +24,12 @@ $ pip install flask-migrate
 - Set the FLASK-APP environment variable.
 - Initialize the database
 - Create database migration script
+- Run database migration
 - Start the application
 ```bash
 $ export FLASK_APP=microblog.py
 $ flask db init
 $ flask db migrate
+$ flask db upgrade
 $ flask run
 ```

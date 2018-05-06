@@ -18,6 +18,10 @@ $ sudo pip install flask
 ```bash
 $ sudo pip install flask-wtf
 ```
+ - Install flask-sqlalchemy
+ ```bash
+ $ sudo pip install flas-sqlalchemy
+ ```
 - Set the FLASK-APP environment varialb.
 ```bash
 $ export FLASK_APP=microblog.py

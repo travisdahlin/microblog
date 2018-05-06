@@ -20,7 +20,11 @@ $ sudo pip install flask-wtf
 ```
  - Install flask-sqlalchemy
  ```bash
- $ sudo pip install flas-sqlalchemy
+ $ sudo pip install flask-sqlalchemy
+ ```
+ - Install flask-migrate
+ ```bash
+ $ sudo pip install flask-migrate
  ```
 - Set the FLASK-APP environment varialb.
 ```bash

@@ -14,11 +14,13 @@ $ source venv/bin/activate
 - Install flask-wtf
 - Install flask-sqlalchemy
 - Install flask-migrate
+- Install flask-login
 ```bash
-$  pip install flask
+$ pip install flask
 $ pip install flask-wtf
 $ pip install flask-sqlalchemy
 $ pip install flask-migrate
+$ pip install flask-login
 ```
 ### Configure environment
 - Set the FLASK-APP environment variable.
